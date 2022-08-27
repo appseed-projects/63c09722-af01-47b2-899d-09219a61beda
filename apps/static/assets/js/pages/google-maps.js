@@ -72,7 +72,7 @@ $(document).ready(function() {
     });
     mapT.addMapType("osm", {
         getTileUrl: function(coord, zoom) {
-            return "https://a.tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+            return "https://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
         },
         tileSize: new google.maps.Size(256, 256),
         name: "OpenStreetMap",
